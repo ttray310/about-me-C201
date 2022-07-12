@@ -24,7 +24,7 @@ if (guessQuestTwo === 'yes' || guessQuestTwo === 'ya' || guessQuestTwo === 'yep'
   // console.log('A fellow vegan spotted in the WILD??');
 }
 
-let guessQuestThree = prompt('What do you think my favorite video game is Zelda?').toLowerCase();
+let guessQuestThree = prompt('Do you think my favorite video game is Zelda?').toLowerCase();
 
 if (guessQuestThree === 'yes' || guessQuestThree === 'ya' || guessQuestThree === 'yep' || guessQuestThree === 'y'){
   alert('Yeah! Those games are just special');
