@@ -15,9 +15,7 @@ I built an app with direct and powerful purpose.
 
 ### Reflections and Comments
 
-* Consider 
-
-
+* Consider
 
 <!-- ## Lab 03
 
