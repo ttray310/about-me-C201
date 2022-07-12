@@ -37,10 +37,10 @@ if (guessQuestThree === 'yes' || guessQuestThree === 'ya' || guessQuestThree ===
 let guessQuestFour = prompt('How about hobbies, Do I look like I have spare time?');
 
 if (guessQuestFour === 'yes' || guessQuestFour === 'ya' || guessQuestFour === 'yep' || guessQuestFour === 'y'){
-  alert('');
+  alert('What is spare time? Absolutely not...');
   // console.log('');
 } else {
-  alert('HA! What is spare time? I have a wife and a house and kids and animals and...');
+  alert('HA! I have a wife and a house and kids and animals and...');
   // console.log('HA! What is spare time? I have a wife and a house and kids and animals and...');
 }
 
