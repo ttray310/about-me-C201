@@ -47,12 +47,38 @@ if (guessQuestFour === 'yes' || guessQuestFour === 'ya' || guessQuestFour === 'y
 let guessQuestFive = prompt('How about music, could you see me listening to blues?').toLowerCase();
 
 if (guessQuestFive === 'yes' || guessQuestFive === 'ya' || guessQuestFive === 'yep' || guessQuestFive === 'y'){
-  alert('Yupppp. I grew uplistening to Stevie Ray Vaughn. Best guitarist in my eyes.');
+  alert('Yupppp. I grew uplistening to Stevie Ray Vaughn. Best guitarist in my ears.');
   // console.log('Yupppp. I grew uplistening to Stevie Ray Vaughn. Best guitarist in my eyes.');
 } else {
   alert('Actually, it was great. Still like to jam out to things that give those vibes.');
   // console.log('Actually, it was great. Still like to jam out to things that give those vibes.');
 }
 
+let guessQuestSix = prompt('Want to play a game?? Guessing games are not the worst...');
+
+if (guessQuestSix === 'yes' || guessQuestSix === 'ya' || guessQuestSix === 'yep' || guessQuestSix === 'y'){
+  alert('Glad to hear it. Move along, hit next.');
+} else {
+  alert('Well.. actually, that\'s too bad.');
+}
+
+let guessQSixCount = 4;
+let myNumber = '13' ;
+let questSixAnswer = false;
+
+while(guessQSixCount && !questSixAnswer){
+  let questSixGameAnswer = prompt ('What number is my favorite? (1-20)');
+  guessQSixCount--;
+  if (questSixGameAnswer === myNumber){
+    prompt ('Nice pick!! Onto question 7 then?');
+    questSixAnswer = true;
+  } else {
+    console.log(`Not the number ${questSixAnswer}, but keep going!. Tries remaining: ${guessQSixCount-1}`);
+  }
+}
+
+
+// for (let i=0; i<guessQSixCount; i++){
+//   prompt('Okay, 1-20. Pick a number.');
 
 alert(`Thanks for playing along ${siteVisitor}, it was fun for me... I think?!`);
