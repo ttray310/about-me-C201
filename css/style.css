@@ -1,0 +1,73 @@
+body{
+  background-color:rgb(231, 170, 96);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+#Biography {
+  margin-right:60%;
+}
+
+#Biography {
+  border:1px;
+  border-width:10px;
+  border-color: rgb(252, 11, 11);
+  border-style:inset;
+}
+
+#Biography p {
+  text-indent: 10px;
+}
+
+#EducationHistory {
+  padding-left:25%;
+}
+
+#EducationHistory li  {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 2em;
+  }
+
+#JobExperience {
+  border:1px;
+  border-width:10px;
+  border-color: rgb(252, 11, 11);
+  border-style:inset;
+  margin-right:60%;
+}
+
+#JobExperience li  {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 2em;
+  }
+
+#Goals {
+  text-align:center;
+}
+
+#TopTenList {
+  border:1px;
+  border-width:3px;
+  border-color: rgb(31, 34, 214);
+  border-style:groove;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 60%;
+  text-align:center
+}
+
+#TopTenList li {
+    text-indent: 30%;
+  text-align-last:left;
+}
