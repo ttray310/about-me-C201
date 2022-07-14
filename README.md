@@ -18,6 +18,7 @@ I built an app with direct and powerful purpose.
 ### Reflections and Comments
 
 * 07.13.22 - Was tough to get the loops to work in the app.js. Issue with Replit, remember to try *different* things. And test/check console often, but not too often...
+* 07.14.22 - Tyler Main forked and updated the app.js to add in fucntions for the loops
 
 <!-- ## Lab 03
 
