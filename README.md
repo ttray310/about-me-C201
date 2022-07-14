@@ -11,11 +11,13 @@ I built an app with direct and powerful purpose.
 ### Links and Resources
 
 * Submission PR
+  * [About Me](ttray310.github.io/about-me-c201/)
 * Links used as reference
+  * 
 
 ### Reflections and Comments
 
-* Consider
+* 07.13.22 - Was tough to get the loops to work in the app.js. Issue with Replit, remember to try *different* things. And test/check console often, but not too often...
 
 <!-- ## Lab 03
 
