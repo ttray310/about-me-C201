@@ -11,11 +11,9 @@ let guessQuestOne = prompt('Do you think I\'m a dog person?').toLowerCase();
 if (guessQuestOne === 'yes' || guessQuestOne === 'ya' || guessQuestOne === 'yep' || guessQuestOne === 'y'){
   alert('Very good guess.');
   scoreOverall++;
-  // console.log('Very good guess.');
 } else {
   alert('No... I have alergies to cats, and they suck.');
   scoreAttempts++;
-  // console.log('No... I have alergies to cats, and they suck.');
 }
 
 console.log(scoreOverall);
@@ -24,11 +22,9 @@ let guessQuestTwo = prompt('Do you think I eat animals?').toLowerCase();
 if (guessQuestTwo === 'yes' || guessQuestTwo === 'ya' || guessQuestTwo === 'yep' || guessQuestTwo === 'y'){
   alert('Actually, I don\'t eat any animcal since March of 2019!!');
   scoreOverall++;
-  // console.log('Actually, I don\'t eat any animcal since March of 2019!!');
 } else {
   alert('A fellow vegan spotted in the WILD??');
   scoreAttempts++;
-  // console.log('A fellow vegan spotted in the WILD??');
 }
 
 let guessQuestThree = prompt('Do you think my favorite video game is Zelda?').toLowerCase();
@@ -36,11 +32,9 @@ let guessQuestThree = prompt('Do you think my favorite video game is Zelda?').to
 if (guessQuestThree === 'yes' || guessQuestThree === 'ya' || guessQuestThree === 'yep' || guessQuestThree === 'y'){
   alert('Yeah! Those games are just special!');
   scoreOverall++;
-  // console.log('Yeah! Those games are just special');
 } else {
   alert('I enjoy the puzzle aspect of it the most.');
   scoreAttempts++;
-  // console.log('Try again, you pick have picked up something, da na na');
 }
 
 let guessQuestFour = prompt('How about hobbies, do I look like I have enjoy snowboarding?');
@@ -52,7 +46,6 @@ if (guessQuestFour === 'yes' || guessQuestFour === 'ya' || guessQuestFour === 'y
 } else {
   alert('Actually, I\'ve been snowboarding since I was 17.');
   scoreAttempts++;
-  // console.log('HA! What is spare time? I have a wife and a house and kids and animals and...');
 }
 
 let guessQuestFive = prompt('How about music, could you see me listening to blues?').toLowerCase();
@@ -60,11 +53,9 @@ let guessQuestFive = prompt('How about music, could you see me listening to blue
 if (guessQuestFive === 'yes' || guessQuestFive === 'ya' || guessQuestFive === 'yep' || guessQuestFive === 'y'){
   alert('Yupppp. I grew uplistening to Stevie Ray Vaughn. Best guitarist in my ears.');
   scoreOverall++;
-  // console.log('Yupppp. I grew uplistening to Stevie Ray Vaughn. Best guitarist in my eyes.');
 } else {
   alert('Actually, it was great. Still like to jam out to things that give those vibes.');
   scoreAttempts++;
-  // console.log('Actually, it was great. Still like to jam out to things that give those vibes.');
 }
 
 let guessQuestSix = prompt('Want to play a game?? Guessing games are not the worst...');
@@ -122,10 +113,6 @@ while(sportGuessAttempt && !sportGameAnswer){
 alert(`These were my favorite sports growing up : ${sportGameList}.`);
 
 alert(`Thanks for visiting my page. Your score ${scoreOverall} out of ${scoreAttempts+scoreOverall} which is ${100*(scoreOverall/(scoreAttempts+scoreOverall))}%.`);
-
-
-
-
 
 // for (let i=0; i<guessQSixCount; i++){
 //   prompt('Okay, 1-20. Pick a number.');
