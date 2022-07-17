@@ -4,7 +4,7 @@
 
 ### Project Name
 
-I built an app with direct and powerful purpose.
+About me website to give people a sneak peak to my cabilities in creating a dynamic website.
 
 ### Author: Tim Traylor
 
@@ -13,6 +13,8 @@ I built an app with direct and powerful purpose.
 * Submission PR
   * [About Me](ttray310.github.io/about-me-c201/)
 * Links used as reference
+  * [Function for any number arguments](https://levelup.gitconnected.com/how-to-write-function-with-n-number-of-parameters-in-javascript-a916de1be7a2)
+  * [CSS Font Stack](https://www.cssfontstack.com/)
   * 
 
 ### Reflections and Comments

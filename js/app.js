@@ -4,8 +4,8 @@ let scoreOverall = 0;
 let scoreAttempts = 0;
 let siteVisitor = prompt('What is your name?');
 
-function questionOne (){
 
+function questionOne (){
   alert(`Welcome to my guessing game, ${siteVisitor}! Try and guess things about me!!`);
 
   let guessQuestOne = prompt('Do you think I\'m a dog person?').toLowerCase();
@@ -20,24 +20,22 @@ function questionOne (){
 }
 questionOne();
 
-//console.log(scoreOverall);
 
 function questionTwo(){
-  let guessQuestTwo = prompt('Do you think I eat animals?').toLowerCase();
+  let guessQuestTwo = prompt('Do you think I\'m a vegan?').toLowerCase();
 
   if (guessQuestTwo === 'yes' || guessQuestTwo === 'ya' || guessQuestTwo === 'yep' || guessQuestTwo === 'y'){
-    alert('Actually, I don\'t eat any animcal since March of 2019!!');
+    alert('Actually, true. I haven\'t eaten an animcal since March of 2019!!');
     scoreOverall++;
   } else {
-    alert('A fellow vegan spotted in the WILD??');
+    alert('Actually, I am a vegan. Please ask me about it.');
     scoreAttempts++;
   }
 }
-
 questionTwo();
 
-function questionThree(){
 
+function questionThree(){
   let guessQuestThree = prompt('Do you think my favorite video game is Zelda?').toLowerCase();
 
   if (guessQuestThree === 'yes' || guessQuestThree === 'ya' || guessQuestThree === 'yep' || guessQuestThree === 'y'){
@@ -48,26 +46,24 @@ function questionThree(){
     scoreAttempts++;
   }
 }
-
 questionThree();
 
 
 function questionFour(){
   let guessQuestFour = prompt('How about hobbies, do I look like I have enjoy snowboarding?').toLowerCase();
+
   if (guessQuestFour === 'yes' || guessQuestFour === 'ya' || guessQuestFour === 'yep' || guessQuestFour === 'y'){
     alert('Yeah, absolutely, snowboarding is a blast!');
     scoreOverall++;
-    // console.log('');
   } else {
     alert('Actually, I\'ve been snowboarding since I was 17.');
     scoreAttempts++;
   }
 }
-
 questionFour();
 
-function questionFive(){
 
+function questionFive(){
   let guessQuestFive = prompt('How about music, could you see me listening to blues?').toLowerCase();
   if (guessQuestFive === 'yes' || guessQuestFive === 'ya' || guessQuestFive === 'yep' || guessQuestFive === 'y'){
     alert('Yupppp. I grew uplistening to Stevie Ray Vaughn. Best guitarist in my ears.');
@@ -77,8 +73,8 @@ function questionFive(){
     scoreAttempts++;
   }
 }
-
 questionFive();
+
 
 function questionSix(){
   let guessQuestSix = prompt('Want to play a game?? Guessing games are not the worst...');
@@ -90,12 +86,10 @@ function questionSix(){
     scoreAttempts++;
   }
 }
-
 questionSix();
 
 
-
-function questionSixP2(){
+function questionSixWrap(){
 
   let guessQSixCount = 4;
   let myNumber = '13' ;
@@ -103,7 +97,7 @@ function questionSixP2(){
 
   while(guessQSixCount && !questSixAnswer){
     let questSixGameAnswer = prompt ('What number is my favorite? (1-20)');
-    // guessQSixCount--;
+
     if (questSixGameAnswer === myNumber){
       alert ('Nice pick!! Onto question 7 then?');
       scoreOverall++;
@@ -119,8 +113,8 @@ function questionSixP2(){
     }
   }
 }
+questionSixWrap();
 
-questionSixP2();
 
 function questionSeven(){
 
@@ -128,13 +122,10 @@ function questionSeven(){
   let sportGuessAttempt = 6;
   let sportGameAnswer = false;
 
-  // for (let i=0; i < sportGameList.length ; i++){
-  //   console.log(`Option ${i+1}: ${sportGameList[i]}`);
-  // }
-
   while(sportGuessAttempt && !sportGameAnswer){
     let guessQuestSeven = prompt('What was my favorite sport growing up? I played for about 10 years.').toLowerCase();
     sportGuessAttempt--;
+
     if ((guessQuestSeven === sportGameList[0]) || (guessQuestSeven === sportGameList[1]) || (guessQuestSeven === sportGameList[2])){
       alert ('Nice pick! I played sports for years, and still like to mess around.');
       scoreOverall++;
@@ -144,16 +135,11 @@ function questionSeven(){
       scoreAttempts++;
     }
   }
-
-  alert(`These were my favorite sports growing up : ${sportGameList}.`); // May break remember to retest this line
+  alert(`These were my favorite sports growing up : ${sportGameList}.`);
 }
-
 questionSeven();
 
-alert(`Thanks for visiting my page. Your score ${scoreOverall} out of ${scoreAttempts+scoreOverall} which is ${100*(scoreOverall/(scoreAttempts+scoreOverall))}%.`);
 
-// for (let i=0; i<guessQSixCount; i++){
-//   prompt('Okay, 1-20. Pick a number.');
-//  baseball, soccer,
+alert(`Thanks for visiting my page. Your score ${scoreOverall} score out of ${scoreAttempts+scoreOverall} overall attempts which is ${100*(scoreOverall/(scoreAttempts+scoreOverall))}%.`);
 
 alert(`Thanks for playing along ${siteVisitor}, it was fun for me... I think?!`);
